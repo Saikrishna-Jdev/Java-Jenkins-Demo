@@ -10,5 +10,10 @@ public class HelloWorldController {
     public String sayHello(){
         return "Welcome to Java Jenkins Docker Integration";
     }
+
+    @GetMapping("/docker")
+    public String addDocker(){
+        return "DockerFile is Added";
+    }
     // Java-Jenkins-Demo
 }
