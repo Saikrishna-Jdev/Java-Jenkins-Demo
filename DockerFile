@@ -1,5 +1,4 @@
-FROM  openjdk:8-jdk-alpine
-MAINTAINER  sai
+FROM  openjdk:8
 EXPOSE 8080
-COPY target/Java-Jenkins-Demo.jar Java-Jenkins-Demo.jar
-ENTRYPOINT ["java","-jar","/Java-Jenkins-Demo.jar"]
+ADD target/java-jenkins-demo.jar java-jenkins-demo.jar
+ENTRYPOINT ["java","-jar","/java-jenkins-demo.jar"]

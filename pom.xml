@@ -49,7 +49,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>Java-Jenkins-Demo</finalName>
+		<finalName>java-jenkins-demo</finalName>
 	</build>
 
 </project>
